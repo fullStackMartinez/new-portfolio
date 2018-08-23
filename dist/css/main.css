@@ -11,7 +11,9 @@ body {
   body#bg-img {
     background: url(../img/new-hero-image.png);
     background-attachment: fixed;
-    background-size: cover; }
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
     body#bg-img:after {
       content: '';
       position: absolute;
