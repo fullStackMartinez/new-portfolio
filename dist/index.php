@@ -21,7 +21,7 @@
 				<div class="menu-branding">
 					<div class="portrait"></div>
 				</div>
-				<ul class="manu-nav">
+				<ul class="menu-nav">
 					<li class="nav-item">
 						<a href="/" class="nav-link">Home</a>
 					</li>
@@ -60,6 +60,6 @@
 				</a>
 			</div>
 		</main>
-		<script src="js/main.js"
+		<script src="js/main.js"></script>
 	</body>
 </html>
