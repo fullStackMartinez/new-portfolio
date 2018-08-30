@@ -32,6 +32,15 @@ $background-opacity: 0.3;
 	}
 }
 
+// Set text color function for different light or dark primary colors
+@function set-text-color( $color) {
+	@if (lightness($color) > 40) {
+		@return #000;
+	} @else {
+		@return #fff;
+	}
+}
+
 //Media query Mixins small, medium, large, extra large
 @mixin mediaSm {
 	@media screen and (max-width: 500px) {
